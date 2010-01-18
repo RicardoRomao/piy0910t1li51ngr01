@@ -1,0 +1,23 @@
+HomeController
+
+	Index
+	UpdateUsers  --> JSON
+	UpdateGames  --> JSON
+
+
+UserController
+
+	Logoff        --> Redirect : Home/Index
+	Registration  --> View : UserRegistration
+	UserDetail    --> View : UserDetail
+
+
+GameController
+
+	GameDetail      --> View : GameDetail
+	AddChallange    --> View : GameDetail
+	AcceptChallange --> View : GameDetail
+	RefuseChallange --> View : GameDetail
+	Start           --> View : GameConsole
+
+		

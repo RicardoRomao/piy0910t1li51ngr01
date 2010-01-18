@@ -1,0 +1,7 @@
+C:\user\pi_projects\MineSweeperFlagsParte3\MineSweeperFlags\bin\MineSweeperFlags.dll
+C:\user\pi_projects\MineSweeperFlagsParte3\MineSweeperFlags\bin\MineSweeperFlags.pdb
+C:\user\pi_projects\MineSweeperFlagsParte3\MineSweeperFlags\bin\MineSweeperFlagsLib.dll
+C:\user\pi_projects\MineSweeperFlagsParte3\MineSweeperFlags\bin\MineSweeperFlagsLib.pdb
+C:\user\pi_projects\MineSweeperFlagsParte3\MineSweeperFlags\obj\Debug\ResolveAssemblyReference.cache
+C:\user\pi_projects\MineSweeperFlagsParte3\MineSweeperFlags\obj\Debug\MineSweeperFlags.dll
+C:\user\pi_projects\MineSweeperFlagsParte3\MineSweeperFlags\obj\Debug\MineSweeperFlags.pdb

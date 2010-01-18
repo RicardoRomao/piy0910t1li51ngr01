@@ -1,0 +1,140 @@
+Inherits="System.Web.Mvc.ViewPage<Product[]>" %>
+
+
+
+
+		<div id="game">
+			<div class="header">Playing Game ()</div>
+				<div class="board"></div>
+				<div class="console">
+					<div class="conbox current"></div>
+					<div class="conbox players"></div>
+					<div class="conbox command"></div>
+				</div>
+			</div>
+			<div class="temp_logger"></div>
+		</div>
+
+
+div.command {
+	clear:left;
+	margin-bottom: 5px;
+	padding:5px;
+	background-image: url(images/back_command.png);
+	text-align:center;
+}
+
+div.status {
+	padding:3px;
+	background-image: url(images/back_status.png);
+}
+
+img.boardload {
+	margin-top:100px;
+	margin-bottom:20px;
+}
+
+div.pzone1, div.pzone2, div.board {
+	float:left;
+	margin:6px 6px 6px 0;
+}
+
+div.pzone1, div.pzone2 {
+
+
+
+#game div.cellLine {
+	clear:left;
+}
+
+#game div.cell {
+	float:left;
+	width:19px;
+	height:19px;
+}
+
+div.player {
+	height:139px;
+	border:1px solid #828282;
+	margin-bottom:6px;
+	padding:4px;
+	text-align:center;
+}
+
+div.links {
+	margin-top:24px;
+}
+
+a.links,
+div.links a,
+div.links a:link {
+	border:1px solid #424242;
+	background-color:#B2B2B2;
+	color:black;
+	margin:2px;
+	padding:2px;
+	cursor:pointer;
+	font-size:12px;
+	text-decoration:none;
+	background-image: url(images/back_btn.png);
+}
+
+a.links:hover,
+div.links a:hover {
+	color:#0055FF;
+}
+
+#player3, #player4 {
+	margin-bottom:0;
+}
+
+#player1 {
+	background-image: url(images/bgplayer1.png);
+}
+
+#player2 {
+	background-image: url(images/bgplayer2.png);
+}
+
+#player3 {
+	background-image: url(images/bgplayer3.png);
+}
+
+#player4 {
+	background-image: url(images/bgplayer4.png);
+}
+
+#player1.active {
+	background-image: url(images/bgplayer1h.png);
+}
+
+#player2.active {
+	background-image: url(images/bgplayer2h.png);
+}
+
+#player3.active {
+	background-image: url(images/bgplayer3h.png);
+}
+
+#player4.active {
+	background-image: url(images/bgplayer4h.png);
+}
+
+
+
+public Game(User owner) {
+public User Owner() { return _owner; }
+public void AddChallange(User user) {
+public void ReplyOnChallange(User user, bool answer) {
+public ChallangeState Challange(User user) {
+public void RemoveUser(User user) {
+public bool ContainsUser(User user) {
+public void start() {
+public Cell[] play(User user, int row, int col)
+public void Cancel() {
+public GameEngine engine()
+	public Cell[] GetUncoveredCells() {
+	public Cell[] GetFullBoard() { r
+	public IPlayer NextPlayer() { r
+	public int RemainigMines() {
+	

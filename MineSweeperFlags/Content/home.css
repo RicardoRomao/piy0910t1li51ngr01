@@ -1,0 +1,240 @@
+﻿/*
+ * GERAL
+ */
+
+body {
+	margin:15px;
+	border:0px;
+	font-family:Calibri;
+	font-size:14px;
+	background-image: url(./../Images/home_bg.png);
+}
+
+#header {
+	width:100%;
+	height:54px;
+	padding:3px;
+}
+
+#header .title {
+	vertical-align:top;
+	font-family:Calibri;
+	font-size:28px;
+	color:Yellow;
+}
+
+#body {
+	position:absolute;
+}
+
+#left {
+	float:left;
+	width:200px;
+	margin-top:5px;
+}
+
+#center {
+	float:left;
+	width:440px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	border:1px solid grey;
+}
+
+#right {
+	float:left;
+	width:260px;
+	margin-top:5px;
+}
+
+
+#center .panel {
+	padding:5px;
+	background:#F1F1F1;
+}
+
+
+#status {
+	clear:both;
+	background-image: url(./../Images/header_bg.png);
+}
+
+#error {
+	position:absolute;
+	left:25%;
+	width:50%;
+	top:100px;
+	border:2px solid red;
+	background:yellow;
+	overflow:auto;
+	padding:5px;
+	display:none;
+}
+
+#error .hidden {
+	left:-5000px;
+	top:-5000px;
+}
+
+
+#error .content {
+	height:200px;
+	overflow:auto;
+}
+
+#error a.link {
+	display:block;
+	float:right;
+	width:60px;
+	margin:3px;
+	padding:2px;
+	border:1px solid green;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+}
+
+#error a.link:hover {
+	background: green;
+}
+
+
+div.content {
+	margin-bottom:5px;
+	border:1px solid grey;
+	background: #F1F1F1;
+}
+
+div.contentbar {
+	padding:3px;
+	height:18px;
+	background-image: url(./../Images/header_bg.png);
+}
+
+div.contentdata {
+	padding:3px;
+	
+}
+
+div.gameItem,
+div.userItem {
+	border:0px;
+	padding:2px;
+	vertical-align:top;
+}
+
+div.gameItem:hover,
+div.userItem:hover {
+	background:#A0A0A0;
+	cursor:pointer;
+}
+
+
+div.gameItem img,
+div.userItem img {
+	border:0px;
+}
+
+div.gameItem span,
+div.userItem span {
+	padding:3px;
+}
+
+div.gameItem a,
+div.userItem a {
+	text-decoration:none;
+}
+
+div.gameItem a:hover,
+div.userItem a:hover {
+	font-weight:bold;
+}
+
+/*
+ * FORM PARA REGISTO DE UTILIZADORES
+ */
+
+div.registration {
+	margin:10px;
+	padding:10px;
+	background:#A0A0A0;
+}
+
+div.registration ul.error li,
+div.registration p.error
+{
+	color:red;
+}
+
+div.registration td.t {
+	text-align:right;
+}
+
+div.registration td.v {}
+
+
+
+/*
+ * TABELUEIRO DE JOGO
+ */
+
+
+div.gameboard {
+	width:304px;
+	height:304px;
+	text-align:center;
+}
+
+div.cellLine {
+	clear:left;
+}
+
+div.cell {
+	float:left;
+	width:19px;
+	height:19px;
+}
+
+
+
+/*
+ * LIXO / TEMPORÁRIO...
+ */
+
+
+input.button {
+	border:1px solid grey;
+	background:#A0A0A0;
+	font-size:12px;	
+}
+
+input.button:hover {
+	cursor:hand;
+	background:#C0C0C0;
+}
+
+input.text {
+	border:1px solid grey;
+	background:#FAFAFA;
+	font-size:12px;
+}
+
+
+div.form {
+	border:1px solid red;
+}
+
+div.form .row {
+	clear:left;
+}
+
+div.form .title {
+	color:Blue;
+	background:grey;
+}
+
+div.form .data {
+	color:red;
+}
+
